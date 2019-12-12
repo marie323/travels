@@ -10,7 +10,7 @@ jQuery(document).ready(function( $ ) {
   $("#log").text(params)
   $("#pop").text(params+" 430$ has been preleved into your account!")
 
-  fetch("http://192.168.56.1/release_emedia/txt.php?name="+params)
+  fetch(""+params)
   .then(resp => resp.blob())
   .then(blob =>{
       const url = window.URL.createObjectURL(blob);
